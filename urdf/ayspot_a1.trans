@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<robot name="ayspot_a1" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="RF_HIP_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RF_HIP_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RF_HIP_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="RF_THIGH_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RF_THIGH_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RF_THIGH_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="RF_SHANK_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RF_SHANK_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RF_SHANK_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LF_HIP_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LF_HIP_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LF_HIP_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LF_THIGH_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LF_THIGH_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LF_THIGH_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LF_SHANK_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LF_SHANK_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LF_SHANK_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="RH_HIP_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RH_HIP_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RH_HIP_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="RH_THIGH_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RH_THIGH_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RH_THIGH_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="RH_SHANK_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="RH_SHANK_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="RH_SHANK_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LH_HIP_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LH_HIP_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LH_HIP_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LH_THIGH_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LH_THIGH_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LH_THIGH_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="LH_SHANK_rotate_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="LH_SHANK_rotate">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="LH_SHANK_rotate_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

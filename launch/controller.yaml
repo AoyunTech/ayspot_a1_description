@@ -1,0 +1,55 @@
+ayspot_a1_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  RF_HIP_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_HIP_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RF_THIGH_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_THIGH_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RF_SHANK_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_SHANK_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_HIP_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_HIP_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_THIGH_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_THIGH_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_SHANK_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_SHANK_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_HIP_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_HIP_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_THIGH_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_THIGH_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_SHANK_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_SHANK_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LH_HIP_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_HIP_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LH_THIGH_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_THIGH_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LH_SHANK_rotate_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_SHANK_rotate
+    pid: {p: 100.0, i: 0.01, d: 10.0}
